@@ -4,6 +4,7 @@
     --border: #333;
     --screen: white;
     --calculator: #aaa;
+    --btn: white;
 }
 
 *{
@@ -49,5 +50,23 @@ body{
 .screen-current{
     min-height: 64px;
     font-size: 40px;
+}
+
+.buttons-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+.span-2{
+    grid-column: span 2;
+}
+
+.btn{
+    padding: 20px;
+    border: 2px var(--border) solid;
+    border-radius: 5px;
+    background-color: var(--btn);
+    font-size: 20px;
 }
 
