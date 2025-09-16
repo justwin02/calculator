@@ -2,6 +2,8 @@
     --background: white;
     --font: black;
     --border: #333;
+    --screen: white;
+    --calculator: #aaa;
 }
 
 *{
@@ -29,4 +31,22 @@ body{
 .calculator{
     border: 2px var(--border) solid;
     width: 400px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    background-color: var(--screen);
+    padding: 20px;
+}
+
+.screen{
+    padding: 10px 20px;
+    border: 2px var(--border) solid;
+    border-radius: 5px;
+    background-color: var(--screen);
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+.screen-current{
+    min-height: 64px;
+    font-size: 40px;
 }
