@@ -6,6 +6,13 @@
     --calculator: #aaa;
     --btn: white;
     --btn-hover: #ddd;
+    --btn-active: #ccc;
+    --btn-red: #faa;
+    --btn-red-hover: #e99;
+    --btn-red-active: #d88;
+    --btn-blue: #aaf;
+    --btn-blue-hover: #99e;
+    --btn-blue-active: #88d;
 }
 
 *{
@@ -73,4 +80,32 @@ body{
 
 .btn:hover{
     background-color: var(--btn-hover);
+}
+
+.btn:active {
+    background-color: var(--btn-active);
+}
+
+.btn-red {
+    background-color: var(--btn-red);
+}
+
+.btn-red:hover {
+    background-color: var(--btn-red-hover);
+}
+
+.btn-red:active {
+    background-color: var(--btn-red-active);
+}
+
+.btn-blue {
+    background-color: var(--btn-blue);
+}
+
+.btn-blue:hover {
+    background-color: var(--btn-blue-hover);
+}
+
+.btn-blue:active {
+    background-color: var(--btn-blue-active);
 }
