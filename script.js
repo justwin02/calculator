@@ -26,6 +26,17 @@ deleteButton.addEventListener('click', deleteNumber);
 pointButton.addEventListener('click', appendPoint);
 window.addEventListener('keydown', handleKeyboardInput);
 
+function appendNumber(number){
+    if (currentOperationScreen.textContent === '0' || shouldResetScreen)
+        resetScreen();
+    currentOperationScreen.textContent += number;
+};
+
+function resetScreen(){
+    currentOperationScreen.textContent = '';
+    shouldResetScreen = false;
+};
+
 
 function convertOperator(keyboardOperator) {
     if (keyboardOperator === '/') return '÷'
