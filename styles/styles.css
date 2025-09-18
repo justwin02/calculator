@@ -63,6 +63,8 @@ body{
 .screen-current{
     min-height: 64px;
     font-size: 40px;
+    overflow-x: auto;     
+    white-space: nowrap;   
 }
 
 .buttons-grid{
