@@ -1,10 +1,10 @@
 :root{
-    --background: white;
-    --font: black;
+    --background: #f6f6f6;
+    --font: #222;
     --border: #333;
-    --screen: white;
+    --screen: #eee;
     --calculator: #aaa;
-    --btn: white;
+    --btn: #eee;
     --btn-hover: #ddd;
     --btn-active: #ccc;
     --btn-red: #faa;
