@@ -51,6 +51,9 @@ function deleteNumber(){
     .slice(0, -1);
 }
 
+function evaluate(){
+    if (currentOperation === null || shouldResetScreen) return;
+}
 
 function convertOperator(keyboardOperator) {
     if (keyboardOperator === '/') return '÷'
