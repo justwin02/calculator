@@ -53,6 +53,8 @@ body{
     background-color: var(--screen);
     margin-bottom: 20px;
     text-align: right;
+    word-wrap: break-word;
+    word-break: break-all;
 }
 
 .screen-previous{
@@ -63,8 +65,6 @@ body{
 .screen-current{
     min-height: 64px;
     font-size: 40px;
-    overflow-x: auto;     
-    white-space: nowrap;   
 }
 
 .buttons-grid{
