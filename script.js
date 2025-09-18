@@ -30,12 +30,26 @@ function appendNumber(number){
     if (currentOperationScreen.textContent === '0' || shouldResetScreen)
         resetScreen();
     currentOperationScreen.textContent += number;
-};
+}
 
 function resetScreen(){
     currentOperationScreen.textContent = '';
     shouldResetScreen = false;
-};
+}
+
+function clear(){
+    currentOperationScreen.textContent = '0';
+    lastOperationScreen.textContent = '';
+    firstOperand = '';
+    secondOperand = '';
+    currentOperation = null;
+}
+
+function deleteNumber(){
+    currentOperationScreen.textContent = currentOperationScreen.textContent
+    .toString()
+    .slice(0, -1);
+}
 
 
 function convertOperator(keyboardOperator) {

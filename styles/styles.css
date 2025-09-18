@@ -57,7 +57,7 @@ body{
     word-break: break-all;
 }
 
-.screen-previous{
+.screen-last{
     min-height: 32px;
     font-size: 20px;
 }
