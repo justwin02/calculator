@@ -55,6 +55,11 @@ body{
     text-align: right;
 }
 
+.screen-previous{
+    min-height: 32px;
+    font-size: 20px;
+}
+
 .screen-current{
     min-height: 64px;
     font-size: 40px;
